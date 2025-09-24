@@ -59,7 +59,7 @@ Pipeline components:
       gmx grompp -f forcefield_files/equilibration_10fs.mdp -c equilibration_5fs.gro -r equilibration_5fs.gro -p system.top -o equilibration_10fs -n index.ndx -maxwarn 1
       gmx mdrun -v -deffnm equilibration_10fs
 
-   Now, you will have a system containing your IgM antibody that is ready for coarse-grained MD simulations.
+Now, you will have a system containing your IgM antibody that is ready for coarse-grained MD simulations.
 
 
    
